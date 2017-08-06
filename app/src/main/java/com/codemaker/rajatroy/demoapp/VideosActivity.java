@@ -16,7 +16,7 @@ public class VideosActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Videos");
+        setTitle("My Videos");
         setContentView(R.layout.activity_videos);
 
         WebView webView = (WebView)findViewById(R.id.myWebView);
