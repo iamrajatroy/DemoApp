@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codemaker.rajatroy.demoapp.CardsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorNews"
+                android:id="@+id/newsLayout"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/newsText"
+                    android:text="News"
+                    android:textSize="40sp"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <ImageView
+
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/newsicon"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Read Daily News"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/newsText"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorVideo"
+                android:id="@+id/videosLayout"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/newsText"
+                    android:text="Videos"
+                    android:textSize="40sp"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <ImageView
+
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/videos"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Favourite Videos"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/newsText"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/moviesLayout"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorMovie"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/newsText"
+                    android:text="Movies"
+                    android:textSize="40sp"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <ImageView
+
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/videos"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Latest Movies"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/newsText"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
